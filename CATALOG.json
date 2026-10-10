@@ -1,0 +1,416 @@
+{
+  "published_skills": [
+    {
+      "description": "Plan controlled multi-agent collaboration with nonoverlapping roles, evidence receipts and budget limits. Use for agent collectives, LangGraph, CrewAI, Microsoft Agent Framework or legacy AutoGen handoffs; not blanket autonomy.",
+      "name": "hab-agent-collectives",
+      "related_file_count": 0,
+      "sha256": "23bdb3a32dfb34b54cb17e5125e892d791908a5602623b59785d4c9b3e59eb6c",
+      "source_path": ".agents/skills/hab-agent-collectives/SKILL.md"
+    },
+    {
+      "description": "Package verified IA Guardian Hab task context and modular skill references for another AI host without leaking data or inventing capabilities.",
+      "name": "hab-agent-handoff",
+      "related_file_count": 0,
+      "sha256": "4f58702f3b56318a06612d5ea746a5222d507b73b6910406bcd9932edb4e2c6e",
+      "source_path": ".agents/skills/hab-agent-handoff/SKILL.md"
+    },
+    {
+      "description": "Prepare bounded Manus agent tasks, task/file handoffs and version-aware API integration plans. Use for Manus research or implementation assistance without granting autonomous spending, publication or financial authority.",
+      "name": "hab-agent-manus",
+      "related_file_count": 0,
+      "sha256": "1b7c35547ecbd97447035675adf9b771c29d75051822269a24fc25ebc9e7f1ff",
+      "source_path": ".agents/skills/hab-agent-manus/SKILL.md"
+    },
+    {
+      "description": "Prepare bounded Monica AI copy/paste tasks and reviewed API integration plans. Use for Monica at monica.im, multi-model drafting or Monica handoffs; not the unrelated Monica personal CRM.",
+      "name": "hab-agent-monica",
+      "related_file_count": 0,
+      "sha256": "729430d810abfeb71fbf5bf2ee855864f04a670966d04b154b13977844ed268b",
+      "source_path": ".agents/skills/hab-agent-monica/SKILL.md"
+    },
+    {
+      "description": "Adapt one task into minimal copy/paste directions for Replit, Claude, ChatGPT/Codex, Gemini, Perplexity, Grok, Cursor or another individual agent. Use for portable handoffs, unclear host capability or run-on task requests.",
+      "name": "hab-agent-universal",
+      "related_file_count": 1,
+      "sha256": "f0444bbe1e7b1cbe9aa10bce06793165fd98a447416028b980ee6f7ddd642816",
+      "source_path": ".agents/skills/hab-agent-universal/SKILL.md"
+    },
+    {
+      "description": "Prepare source-cited You.com research tasks and discover its official skills and MCP integration. Use for You.com web search, contents, current documentation and research without assuming credentials, quotas or host support.",
+      "name": "hab-agent-you-com",
+      "related_file_count": 0,
+      "sha256": "dc7e6fa4f83efaa503314b37029481e766d3af807b9070bf051d606f7a501dc5",
+      "source_path": ".agents/skills/hab-agent-you-com/SKILL.md"
+    },
+    {
+      "description": "Inspect GitHub sources and adapt nested, malformed or missing skill metadata into reviewable portable skills. Use when adding a GitHub repo as a skill, importing README guidance, fixing skill layout rejection or indexing repository references in uploads.",
+      "name": "hab-github-skill-intake",
+      "related_file_count": 1,
+      "sha256": "a1dedd3209fe584bcebac89e1e65d9f0ac953ba539e4f374dba95ca28cc02168",
+      "source_path": ".agents/skills/hab-github-skill-intake/SKILL.md"
+    },
+    {
+      "description": "Research Hugging Face model cards, datasets, Spaces, agent skills and smolagents with revision, license, safety and cost checks. Use for HF discoveries and model/provider comparisons without automatically downloading weights or running remote code.",
+      "name": "hab-huggingface-research",
+      "related_file_count": 0,
+      "sha256": "13d3ddc70c5160d67bcb7cd29fd5180d39adc4b7cd59fc21e1e08f509e9085bf",
+      "source_path": ".agents/skills/hab-huggingface-research/SKILL.md"
+    },
+    {
+      "description": "Prepare manual-first n8n source intake, skill normalization, provider handoffs, research, approval queues and revision checks. Use for semi-automation workflow JSON, credential wiring and human-controlled agent operations.",
+      "name": "hab-n8n-control",
+      "related_file_count": 42,
+      "sha256": "f6e207d7d3a13f55fea3badc9fd55953bf18ef96f2d74ab4ea59f783cf901f58",
+      "source_path": ".agents/skills/hab-n8n-control/SKILL.md"
+    },
+    {
+      "description": "Reconcile Love Transcends token units, supply, maturity, activity proofs, deployment candidates and evidence before protocol changes.",
+      "name": "hab-protocol-review",
+      "related_file_count": 0,
+      "sha256": "3a437d7b6a02d79bd3aa3eb8f7628c603f8fd5cfe0153102129e2bef575bde8c",
+      "source_path": ".agents/skills/hab-protocol-review/SKILL.md"
+    },
+    {
+      "description": "Plan bounded, checkpointed IA Guardian Hab work and disclose the consequences of choosing, skipping or deferring tasks.",
+      "name": "hab-resource-planner",
+      "related_file_count": 1,
+      "sha256": "283bacfbc0a183bc0f615a4366f70e351101150442cf2c5f7e22b51c64c88883",
+      "source_path": ".agents/skills/hab-resource-planner/SKILL.md"
+    },
+    {
+      "description": "Separate public chain/wallet/vault configuration from signing secrets and plan secure credential provisioning. Use for API keys, wallets, vault addresses, keystore encryption or hard-coded configuration without putting private keys in source.",
+      "name": "hab-secrets-wallets",
+      "related_file_count": 0,
+      "sha256": "9d32554bfa26df354bae2d610a3ee4565b301903e424da23650c065c992f6445",
+      "source_path": ".agents/skills/hab-secrets-wallets/SKILL.md"
+    },
+    {
+      "description": "Safely inventory, deduplicate, quarantine, export or merge code, media and documents through IA Guardian Hab.",
+      "name": "hab-source-transfer",
+      "related_file_count": 0,
+      "sha256": "733c2cf04f082b071436a8bf610269ae0ed676cbd6da851f1c19d19fddc30a88",
+      "source_path": ".agents/skills/hab-source-transfer/SKILL.md"
+    },
+    {
+      "description": "Select bounded workflows for GitHub, deployment, environments, research, IP security, copyright, trademark, patent, compliance, debugging, protocols, file formats, roles and market trends. Use for reusable file/workflow plans with human-controlled activation.",
+      "name": "hab-workflow-library",
+      "related_file_count": 11,
+      "sha256": "ad5e24b345c3c8f70f700faf1be77c9aaa552c546921098594037c9cd5591f97",
+      "source_path": ".agents/skills/hab-workflow-library/SKILL.md"
+    },
+    {
+      "description": "Coordinate IA Guardian Hab and Love Transcends source intake, reusable skills, portable packages, project transfer, code review, protocol reconciliation and bounded agent tasks. Use for Hab, Super AI, RepSU, OneCode, archive/merge/sync requests, run-on requests, and cross-project implementation work.",
+      "name": "ia-guardian-hab",
+      "related_file_count": 4,
+      "sha256": "1fc5db5ff583bd3b840a8b1212b96e896116f8889a8dddefae98c5d6c9e37155",
+      "source_path": ".agents/skills/ia-guardian-hab/SKILL.md"
+    },
+    {
+      "description": "Plan pinned OmniRoute integration with free-first routing; optional paid fallback requires operator opt-in, per-request approval, and a $10 task-run cap.",
+      "name": "hab-omniroute",
+      "related_file_count": 3,
+      "sha256": "da8c1f784cec7bed5a542ef1f0969d922f6e610c97c2a4162dd3cb7068fe77eb",
+      "source_path": "skills/hab-omniroute/SKILL.md"
+    },
+    {
+      "name": "hab-debugging",
+      "description": "Diagnose software failures with bounded evidence, a reproducible case, competing hypotheses, and regression tests. Use when a bug, failed test, deployment symptom, or unexpected behavior needs investigation; do not infer a fix or deployment from source alone.",
+      "source_path": ".agents/skills/hab-debugging/SKILL.md",
+      "related_file_count": 0,
+      "sha256": "f1228901d8634bcfb42e8f8abbfdff74937778cca6f71e571f2df88e75349799"
+    },
+    {
+      "name": "hab-self-coding",
+      "description": "Convert an approved software goal into staged plans, isolated implementation, tests, and a human-reviewed path to main. Use for agent coding and self-improvement workflows; never grant direct main-branch, deployment, provider-spend, or secret authority.",
+      "source_path": ".agents/skills/hab-self-coding/SKILL.md",
+      "related_file_count": 1,
+      "sha256": "1d03ce8141208566da5bf8d5b12b6a0a3484d1598ddbaceb038c87504c41fac7"
+    }
+  ],
+  "schema": "rainbowjobs-skills-catalog/1",
+  "upstream_reference": {
+    "commit": "7510677f2f8f5317f1947284dab650d01333915d",
+    "license": "MIT",
+    "native_skill_count": 46,
+    "native_skills": [
+      {
+        "description": "Interact with the OmniRoute A2A server from the CLI. Send tasks, inspect skill execution history, and test the JSON-RPC 2.0 agent-to-agent protocol interactively.",
+        "git_blob_sha1": "e75b993606b4c6f7b182f82cd714d3d82963f015",
+        "name": "cli-a2a",
+        "path": "sources/omniroute/skills/cli-a2a/SKILL.md"
+      },
+      {
+        "description": "Backup and restore OmniRoute data from the CLI. Trigger incremental snapshots, sync to cloud storage, manage backup schedules, and restore from archive files.",
+        "git_blob_sha1": "e1dccfed63b03487acfd56defe4b614670866383",
+        "name": "cli-backup-sync",
+        "path": "sources/omniroute/skills/cli-backup-sync/SKILL.md"
+      },
+      {
+        "description": "Submit and monitor batch inference jobs from the CLI. Upload and manage files for batch processing, retrieve results, and integrate batch pipelines with CI/CD workflows.",
+        "git_blob_sha1": "8b0d4d1a8cbd0e2371fcec3e72d585a1358a2d07",
+        "name": "cli-batches",
+        "path": "sources/omniroute/skills/cli-batches/SKILL.md"
+      },
+      {
+        "description": "Send chat completions, stream responses, and start an interactive REPL session from the CLI. Supports all OmniRoute providers, combo routing, and system prompt configuration.",
+        "git_blob_sha1": "5ccce0d2411085aa9363b60ebe60022fc33f3848",
+        "name": "cli-chat",
+        "path": "sources/omniroute/skills/cli-chat/SKILL.md"
+      },
+      {
+        "description": "Configure and test prompt compression from the CLI. Manage RTK filters, Caveman rules, stacked compression modes, and preview compression output with real prompts.",
+        "git_blob_sha1": "3c1d6d2d26e1aba835bd4cdfbf70e2e51e1821ff",
+        "name": "cli-compression",
+        "path": "sources/omniroute/skills/cli-compression/SKILL.md"
+      },
+      {
+        "description": "Manage context engineering configurations, RTK filter sets, and conversation sessions from the CLI. Apply context-relay settings and inspect active context pipelines.",
+        "git_blob_sha1": "a0d6acc6ca6e9254cdf25795ec1aac81567d260e",
+        "name": "cli-contexts",
+        "path": "sources/omniroute/skills/cli-contexts/SKILL.md"
+      },
+      {
+        "description": "View cost breakdowns, token usage, and call logs from the CLI. Filter by provider, model, or date range. Export usage reports and inspect per-connection spending.",
+        "git_blob_sha1": "bf27154c2fa5d9b63602da8fed5cbaa607c78c48",
+        "name": "cli-cost-usage",
+        "path": "sources/omniroute/skills/cli-cost-usage/SKILL.md"
+      },
+      {
+        "description": "Create and run evaluation suites, watch live benchmark progress, view scorecards, compare model performance, and integrate eval runs with CI workflows from the CLI.",
+        "git_blob_sha1": "20cf4f40c8b84918c00ae712f3c37831dff2c356",
+        "name": "cli-eval",
+        "path": "sources/omniroute/skills/cli-eval/SKILL.md"
+      },
+      {
+        "description": "Check server health, component status, and live metrics from the CLI. Run `health`, `health components`, and `health watch` for a real-time dashboard of circuit breakers and provider status.",
+        "git_blob_sha1": "97a7a28a2f9d0be225b68831093a1508b0806cd3",
+        "name": "cli-health",
+        "path": "sources/omniroute/skills/cli-health/SKILL.md"
+      },
+      {
+        "description": "Create, list, rotate, and revoke OmniRoute API keys from the CLI. Manage OAuth flows for provider authentication and inspect key scopes and expiration.",
+        "git_blob_sha1": "f7e02aadfea6ff491af243c04461957b32bc3d9d",
+        "name": "cli-keys",
+        "path": "sources/omniroute/skills/cli-keys/SKILL.md"
+      },
+      {
+        "description": "Inspect the MCP server status, list registered tools and scopes, run tool invocations, and manage MCP audit logs from the CLI.",
+        "git_blob_sha1": "5bc6a9a720bfe70176d3e57b02b5071ee666ee46",
+        "name": "cli-mcp",
+        "path": "sources/omniroute/skills/cli-mcp/SKILL.md"
+      },
+      {
+        "description": "Query available AI models, list model aliases, and browse the full model catalog from the CLI. Filter by provider, search by capability, and resolve model name variants.",
+        "git_blob_sha1": "0105c3e0e7ae77357b3d4be565fc197d2d978ca2",
+        "name": "cli-models",
+        "path": "sources/omniroute/skills/cli-models/SKILL.md"
+      },
+      {
+        "description": "Manage Omni Skills (list, install, test, remove), plugins (create, configure), and persistent memory (search, add, clear) from the CLI.",
+        "git_blob_sha1": "b1ed512f60727a048cc8d2ec2509198bf9a83d8c",
+        "name": "cli-plugins-skills",
+        "path": "sources/omniroute/skills/cli-plugins-skills/SKILL.md"
+      },
+      {
+        "description": "Inspect audit logs, manage access policies, view telemetry data, and review request history from the CLI. Filter by event type, user, or time range for compliance workflows.",
+        "git_blob_sha1": "4b3d115db39b7ffec5ed3de686d5ca8d6b276827",
+        "name": "cli-policy-audit",
+        "path": "sources/omniroute/skills/cli-policy-audit/SKILL.md"
+      },
+      {
+        "description": "\"Manage provider connections from the CLI: list available/configured providers, add, test, test-all, validate, rotate API keys, and view per-provider metrics.\"",
+        "git_blob_sha1": "c3c5b87e850ca41dabca5d2e14b6861a215e52b8",
+        "name": "cli-providers",
+        "path": "sources/omniroute/skills/cli-providers/SKILL.md"
+      },
+      {
+        "description": "Inspect and manage circuit-breaker states, connection cooldowns, quota limits, and backoff levels from the CLI. Reset stuck providers and configure resilience thresholds.",
+        "git_blob_sha1": "28dcd780089915d05a80dbe147ff9d104d9b2ddb",
+        "name": "cli-resilience",
+        "path": "sources/omniroute/skills/cli-resilience/SKILL.md"
+      },
+      {
+        "description": "Create, list, update, and delete routing combos from the CLI. Test routing strategies, inspect combo metrics, and configure fallback chains interactively.",
+        "git_blob_sha1": "3ce451b46e85d684c9ad442042661e09343a9d29",
+        "name": "cli-routing",
+        "path": "sources/omniroute/skills/cli-routing/SKILL.md"
+      },
+      {
+        "description": "Start, stop, and restart the OmniRoute server from the CLI. Manage daemon mode, port configuration, auto-recovery, system tray integration, and the dashboard open shortcut.",
+        "git_blob_sha1": "a8a3c167eda920276b0a19067870304917b0f3ba",
+        "name": "cli-serve",
+        "path": "sources/omniroute/skills/cli-serve/SKILL.md"
+      },
+      {
+        "description": "Run initial setup, configure global CLI settings, manage environment variables, check for updates, and configure autostart via the CLI setup and config commands.",
+        "git_blob_sha1": "11697d2367f88c973b2e28d837675a33dbabe53c",
+        "name": "cli-setup",
+        "path": "sources/omniroute/skills/cli-setup/SKILL.md"
+      },
+      {
+        "description": "\"Detect installed CLI coding tools (Claude Code, Codex, Cursor, Copilot, Cline and more), search GitHub for matching agent skills, and install them to the detected tools via OmniRoute's built-in APIs.\"",
+        "git_blob_sha1": "ec3e36c37b888a158007b18f5a85a8fad68666af",
+        "name": "cli-skill-collector",
+        "path": "sources/omniroute/skills/cli-skill-collector/SKILL.md"
+      },
+      {
+        "description": "Start and stop tunnel connections (ngrok, Cloudflare, custom) from the CLI. Inspect active tunnel URLs, configure authentication, and test external reachability.",
+        "git_blob_sha1": "4d7388bb7b727a74b77164bec748c390f591e708",
+        "name": "cli-tunnel",
+        "path": "sources/omniroute/skills/cli-tunnel/SKILL.md"
+      },
+      {
+        "description": "Step-by-step agent workflow to configure the OpenAI Codex CLI on any machine (Linux, macOS, Windows) to use OmniRoute as an OpenAI-compatible backend. Detects OS and shell, writes config.toml and 7 named profiles, sets environment variables, and verifies the setup.",
+        "git_blob_sha1": "3d895db52fcb166f6a9d4d6115c3ebf945f4fd07",
+        "name": "config-codex-cli",
+        "path": "sources/omniroute/skills/config-codex-cli/SKILL.md"
+      },
+      {
+        "description": "\"Interact with OmniRoute via JSON-RPC 2.0 agent-to-agent protocol. 6 built-in A2A skills: smart-routing, quota-management, provider-discovery, cost-analysis, health-report, list-capabilities.\"",
+        "git_blob_sha1": "52bc1be3489e127d41b60de0a4cbf94f0403fd63",
+        "name": "omni-agents-a2a",
+        "path": "sources/omniroute/skills/omni-agents-a2a/SKILL.md"
+      },
+      {
+        "description": "Create, list, rotate, and revoke OmniRoute API keys. Control per-key scopes, spending limits, and expiration. Keys gate access to all proxy and management endpoints.",
+        "git_blob_sha1": "5d4a2326e5628bfbc7ebe8a8a612d445d5d22c73",
+        "name": "omni-api-keys",
+        "path": "sources/omniroute/skills/omni-api-keys/SKILL.md"
+      },
+      {
+        "description": "Manage API key authentication and session tokens. Start here to authenticate requests via Bearer token, obtain session cookies, and configure login requirements for the OmniRoute API.",
+        "git_blob_sha1": "817a0c449406fc8599877cb037aa66f17b0c7739",
+        "name": "omni-auth",
+        "path": "sources/omniroute/skills/omni-auth/SKILL.md"
+      },
+      {
+        "description": "Configure spending limits, token quotas, and rate-limit policies per API key or globally. Inspect current consumption and enforce cost controls across providers.",
+        "git_blob_sha1": "a7b8fd67d16ef40dd952d12ff283d06530ab0381",
+        "name": "omni-budget",
+        "path": "sources/omniroute/skills/omni-budget/SKILL.md"
+      },
+      {
+        "description": "Manage the LLM response cache. View cache statistics, clear entries, configure TTL policies, and control semantic-similarity caching thresholds.",
+        "git_blob_sha1": "49e5c50bf26703fdab7bf3ecd13f84ac5e544607",
+        "name": "omni-cache",
+        "path": "sources/omniroute/skills/omni-cache/SKILL.md"
+      },
+      {
+        "description": "\"Manage CLI tool integrations exposed via the API. List, configure, and invoke CLI tool plugins that extend OmniRoute's automation surface.\"",
+        "git_blob_sha1": "ef2ac60575e87d4933c096dd0d662353e4d6e67f",
+        "name": "omni-cli-tools",
+        "path": "sources/omniroute/skills/omni-cli-tools/SKILL.md"
+      },
+      {
+        "description": "Create and manage routing combos with 19 strategies (priority, weighted, round-robin, Auto-combo, and more). Configure fallback chains, test routing outcomes, and retrieve combo metrics.",
+        "git_blob_sha1": "e18068989dff9f32ee5afbddf31e81ab57454dc3",
+        "name": "omni-combos-routing",
+        "path": "sources/omniroute/skills/omni-combos-routing/SKILL.md"
+      },
+      {
+        "description": "Configure RTK (command output), Caveman (prose), and stacked compression modes. Manage language packs, custom rules, and test prompt compression reducing tokens by 60–90%.",
+        "git_blob_sha1": "6ffaa80554cd3b7055d69260281925377078df2a",
+        "name": "omni-compression",
+        "path": "sources/omniroute/skills/omni-compression/SKILL.md"
+      },
+      {
+        "description": "Configure RTK filters, context engineering rules, and context relay settings. Test compression with real prompt samples and manage context transformation pipelines.",
+        "git_blob_sha1": "4feee73225efaa2df1c1c6787f46f7e2abcb9801",
+        "name": "omni-context-rtk",
+        "path": "sources/omniroute/skills/omni-context-rtk/SKILL.md"
+      },
+      {
+        "description": "Trigger system backups, restore from backup files, and manage the SQLite database lifecycle. Supports export, import, and incremental snapshot strategies.",
+        "git_blob_sha1": "f67fad7f1e766cdeea2747bc87c4fb68232d981b",
+        "name": "omni-db-backups",
+        "path": "sources/omniroute/skills/omni-db-backups/SKILL.md"
+      },
+      {
+        "description": "Search, score, scan, and import agent skills from GitHub repositories that contain SKILL.md, CLAUDE.md, .cursorrules, and similar agent skill files. Discover community skills across many tool and provider categories, evaluate relevance with heuristic scoring, check for malware or hardcoded secrets, and install into Hermes, Claude Code, Gemini CLI, or OpenCode agent directories.",
+        "git_blob_sha1": "e4dc612b5073f2121122201ee2b70dc16f9c0040",
+        "name": "omni-github-skills",
+        "path": "sources/omniroute/skills/omni-github-skills/SKILL.md"
+      },
+      {
+        "description": "\"The core OpenAI-compatible inference endpoints: chat completions, embeddings, images, audio (TTS/STT), moderations, rerank, and the Responses API. The primary integration surface for AI agents.\"",
+        "git_blob_sha1": "d74822d371655b7ce41ac386753f780e47bfefac",
+        "name": "omni-inference",
+        "path": "sources/omniroute/skills/omni-inference/SKILL.md"
+      },
+      {
+        "description": "\"Connect to the OmniRoute MCP server (110 tools, 3 transports: SSE/stdio/HTTP). Covers routing, cache, compression, memory, skills, providers, and audit tools across 33 permission scopes.\"",
+        "git_blob_sha1": "48495ab0dc1d1926f41aea539d87169286d21435",
+        "name": "omni-mcp",
+        "path": "sources/omniroute/skills/omni-mcp/SKILL.md"
+      },
+      {
+        "description": "Query available AI models across all configured providers. List models, resolve model aliases, and browse the full model catalog including provider-specific variants.",
+        "git_blob_sha1": "3bc909584fab47dfe2970c087655a44757a69c55",
+        "name": "omni-models",
+        "path": "sources/omniroute/skills/omni-models/SKILL.md"
+      },
+      {
+        "description": "\"Manage provider connections, API keys, OAuth flows, and connection tests via the REST API. List, add, update, remove, and test AI provider integrations across OmniRoute's 327-provider catalog.\"",
+        "git_blob_sha1": "2384841c1dfc9860340cee7b8a777257ded00cad",
+        "name": "omni-providers",
+        "path": "sources/omniroute/skills/omni-providers/SKILL.md"
+      },
+      {
+        "description": "Configure HTTP/HTTPS/SOCKS proxies for upstream provider requests. Set per-provider or global proxy rules, test connectivity, and manage proxy rotation.",
+        "git_blob_sha1": "ea6860effe444011ae094d57386b544ca489aeb2",
+        "name": "omni-proxies",
+        "path": "sources/omniroute/skills/omni-proxies/SKILL.md"
+      },
+      {
+        "description": "Monitor provider health, circuit-breaker states, p50/p95/p99 latency metrics, and budget guard alerts. Inspect connection cooldowns and model lockouts in real time.",
+        "git_blob_sha1": "788e4e629373a8a49e8bbe92758fb4c85775257b",
+        "name": "omni-resilience",
+        "path": "sources/omniroute/skills/omni-resilience/SKILL.md"
+      },
+      {
+        "description": "\"Read and update global application settings: system prompts, thinking budget, IP filters, payload rules, combo defaults, and require-login configuration.\"",
+        "git_blob_sha1": "ff7f8dab86b26ea709fa1863acc0b0c507232179",
+        "name": "omni-settings",
+        "path": "sources/omniroute/skills/omni-settings/SKILL.md"
+      },
+      {
+        "description": "Synchronise OmniRoute configuration, provider connections, and settings to/from cloud storage. Manage cloud worker authentication and remote backup targets.",
+        "git_blob_sha1": "d44131977fd25d289440755d5126a5aefb5a742b",
+        "name": "omni-sync-cloud",
+        "path": "sources/omniroute/skills/omni-sync-cloud/SKILL.md"
+      },
+      {
+        "description": "Create and manage secure tunnels (ngrok, Cloudflare Tunnel, custom) to expose OmniRoute to the internet or share access with remote agents and CI pipelines.",
+        "git_blob_sha1": "19cc2725a64568f1d972c2f61c67f14d57a62aad",
+        "name": "omni-tunnels",
+        "path": "sources/omniroute/skills/omni-tunnels/SKILL.md"
+      },
+      {
+        "description": "Access detailed call logs and usage analytics. Filter by provider, model, time range, status, and cost. Export logs and aggregate token usage across all connections.",
+        "git_blob_sha1": "14d010eb62f8125ac39f65dc845b67df4d5932ff",
+        "name": "omni-usage-logs",
+        "path": "sources/omniroute/skills/omni-usage-logs/SKILL.md"
+      },
+      {
+        "description": "Install, start, stop, restart, and update embedded services (9Router, CLIProxyAPI). Monitor service status, retrieve logs, and configure auto-start for local-only service endpoints.",
+        "git_blob_sha1": "08ac27341d9b579b6c6eaf5d80f6ace58637694e",
+        "name": "omni-version-manager",
+        "path": "sources/omniroute/skills/omni-version-manager/SKILL.md"
+      },
+      {
+        "description": "Register, list, test, and remove webhook endpoints. Configure event subscriptions (request.completed, request.failed, quota.exceeded, etc.) and manage delivery retries.",
+        "git_blob_sha1": "8b1d137ad7a858ad724b8462f4593792fbe058fe",
+        "name": "omni-webhooks",
+        "path": "sources/omniroute/skills/omni-webhooks/SKILL.md"
+      },
+      {
+        "description": "\"External agent skill (MIT, github.com/DietrichGebert/ponytail). Forces the laziest solution that actually works: question whether the task needs to exist at all (YAGNI), reuse what is already in the codebase, reach for the standard library before custom code, native platform features before dependencies, one line before fifty. Climb the ladder on every coding task — writing, adding, refactoring, fixing, reviewing, or designing code, and choosing libraries or dependencies. Supports intensity levels: lite, full (default), ultra. Never cut validation, error handling, security, or accessibility.\"",
+        "git_blob_sha1": "b2edd3b7d5d0c9d1adf7031752f04092e27757e0",
+        "name": "ponytail",
+        "path": "sources/omniroute/skills/ponytail/SKILL.md"
+      }
+    ],
+    "repo": "diegosouzapw/OmniRoute",
+    "status": "source reference, not activated"
+  }
+}
