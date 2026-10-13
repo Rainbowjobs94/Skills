@@ -1,0 +1,857 @@
+{
+  "schema": "rainbowjobs-skills-metadata-index/1",
+  "scope": "Deduplicated skill names explicitly selected by the user in this conversation; not the entire Replit or provider skill catalog.",
+  "baseline_commit": "5f55812aa730cb8febde66491218e690f31e686c",
+  "mode": "metadata_only",
+  "notes": [
+    "Purpose lines are newly written summaries, not copied skill instructions.",
+    "Source categories repeat the user selection labels; they do not establish authorship, availability, license, ownership or host compatibility.",
+    "No upstream repositories, versions, provider credentials or account entitlements were verified for these additional entries.",
+    "This index is not an executable skill, installer, complete toolkit, legal certification or authority to use paid providers.",
+    "Obtain the source through an authorized host or official provider, verify current metadata and terms, then review compatibility and permissions before use.",
+    "Existing Hab and pinned OmniRoute files are preserved."
+  ],
+  "existing_repository_skill_files": [
+    {
+      "name": "hab-agent-collectives",
+      "path": ".agents/skills/hab-agent-collectives/SKILL.md"
+    },
+    {
+      "name": "hab-agent-handoff",
+      "path": ".agents/skills/hab-agent-handoff/SKILL.md"
+    },
+    {
+      "name": "hab-agent-manus",
+      "path": ".agents/skills/hab-agent-manus/SKILL.md"
+    },
+    {
+      "name": "hab-agent-monica",
+      "path": ".agents/skills/hab-agent-monica/SKILL.md"
+    },
+    {
+      "name": "hab-agent-universal",
+      "path": ".agents/skills/hab-agent-universal/SKILL.md"
+    },
+    {
+      "name": "hab-agent-you-com",
+      "path": ".agents/skills/hab-agent-you-com/SKILL.md"
+    },
+    {
+      "name": "hab-debugging",
+      "path": ".agents/skills/hab-debugging/SKILL.md"
+    },
+    {
+      "name": "hab-github-skill-intake",
+      "path": ".agents/skills/hab-github-skill-intake/SKILL.md"
+    },
+    {
+      "name": "hab-huggingface-research",
+      "path": ".agents/skills/hab-huggingface-research/SKILL.md"
+    },
+    {
+      "name": "hab-n8n-control",
+      "path": ".agents/skills/hab-n8n-control/SKILL.md"
+    },
+    {
+      "name": "hab-protocol-review",
+      "path": ".agents/skills/hab-protocol-review/SKILL.md"
+    },
+    {
+      "name": "hab-resource-planner",
+      "path": ".agents/skills/hab-resource-planner/SKILL.md"
+    },
+    {
+      "name": "hab-secrets-wallets",
+      "path": ".agents/skills/hab-secrets-wallets/SKILL.md"
+    },
+    {
+      "name": "hab-self-coding",
+      "path": ".agents/skills/hab-self-coding/SKILL.md"
+    },
+    {
+      "name": "hab-source-transfer",
+      "path": ".agents/skills/hab-source-transfer/SKILL.md"
+    },
+    {
+      "name": "hab-workflow-library",
+      "path": ".agents/skills/hab-workflow-library/SKILL.md"
+    },
+    {
+      "name": "ia-guardian-hab",
+      "path": ".agents/skills/ia-guardian-hab/SKILL.md"
+    },
+    {
+      "name": "hab-omniroute",
+      "path": "skills/hab-omniroute/SKILL.md"
+    },
+    {
+      "name": "cli-a2a",
+      "path": "sources/omniroute/skills/cli-a2a/SKILL.md"
+    },
+    {
+      "name": "cli-backup-sync",
+      "path": "sources/omniroute/skills/cli-backup-sync/SKILL.md"
+    },
+    {
+      "name": "cli-batches",
+      "path": "sources/omniroute/skills/cli-batches/SKILL.md"
+    },
+    {
+      "name": "cli-chat",
+      "path": "sources/omniroute/skills/cli-chat/SKILL.md"
+    },
+    {
+      "name": "cli-compression",
+      "path": "sources/omniroute/skills/cli-compression/SKILL.md"
+    },
+    {
+      "name": "cli-contexts",
+      "path": "sources/omniroute/skills/cli-contexts/SKILL.md"
+    },
+    {
+      "name": "cli-cost-usage",
+      "path": "sources/omniroute/skills/cli-cost-usage/SKILL.md"
+    },
+    {
+      "name": "cli-eval",
+      "path": "sources/omniroute/skills/cli-eval/SKILL.md"
+    },
+    {
+      "name": "cli-health",
+      "path": "sources/omniroute/skills/cli-health/SKILL.md"
+    },
+    {
+      "name": "cli-keys",
+      "path": "sources/omniroute/skills/cli-keys/SKILL.md"
+    },
+    {
+      "name": "cli-mcp",
+      "path": "sources/omniroute/skills/cli-mcp/SKILL.md"
+    },
+    {
+      "name": "cli-models",
+      "path": "sources/omniroute/skills/cli-models/SKILL.md"
+    },
+    {
+      "name": "cli-plugins-skills",
+      "path": "sources/omniroute/skills/cli-plugins-skills/SKILL.md"
+    },
+    {
+      "name": "cli-policy-audit",
+      "path": "sources/omniroute/skills/cli-policy-audit/SKILL.md"
+    },
+    {
+      "name": "cli-providers",
+      "path": "sources/omniroute/skills/cli-providers/SKILL.md"
+    },
+    {
+      "name": "cli-resilience",
+      "path": "sources/omniroute/skills/cli-resilience/SKILL.md"
+    },
+    {
+      "name": "cli-routing",
+      "path": "sources/omniroute/skills/cli-routing/SKILL.md"
+    },
+    {
+      "name": "cli-serve",
+      "path": "sources/omniroute/skills/cli-serve/SKILL.md"
+    },
+    {
+      "name": "cli-setup",
+      "path": "sources/omniroute/skills/cli-setup/SKILL.md"
+    },
+    {
+      "name": "cli-skill-collector",
+      "path": "sources/omniroute/skills/cli-skill-collector/SKILL.md"
+    },
+    {
+      "name": "cli-tunnel",
+      "path": "sources/omniroute/skills/cli-tunnel/SKILL.md"
+    },
+    {
+      "name": "config-codex-cli",
+      "path": "sources/omniroute/skills/config-codex-cli/SKILL.md"
+    },
+    {
+      "name": "omni-agents-a2a",
+      "path": "sources/omniroute/skills/omni-agents-a2a/SKILL.md"
+    },
+    {
+      "name": "omni-api-keys",
+      "path": "sources/omniroute/skills/omni-api-keys/SKILL.md"
+    },
+    {
+      "name": "omni-auth",
+      "path": "sources/omniroute/skills/omni-auth/SKILL.md"
+    },
+    {
+      "name": "omni-budget",
+      "path": "sources/omniroute/skills/omni-budget/SKILL.md"
+    },
+    {
+      "name": "omni-cache",
+      "path": "sources/omniroute/skills/omni-cache/SKILL.md"
+    },
+    {
+      "name": "omni-cli-tools",
+      "path": "sources/omniroute/skills/omni-cli-tools/SKILL.md"
+    },
+    {
+      "name": "omni-combos-routing",
+      "path": "sources/omniroute/skills/omni-combos-routing/SKILL.md"
+    },
+    {
+      "name": "omni-compression",
+      "path": "sources/omniroute/skills/omni-compression/SKILL.md"
+    },
+    {
+      "name": "omni-context-rtk",
+      "path": "sources/omniroute/skills/omni-context-rtk/SKILL.md"
+    },
+    {
+      "name": "omni-db-backups",
+      "path": "sources/omniroute/skills/omni-db-backups/SKILL.md"
+    },
+    {
+      "name": "omni-github-skills",
+      "path": "sources/omniroute/skills/omni-github-skills/SKILL.md"
+    },
+    {
+      "name": "omni-inference",
+      "path": "sources/omniroute/skills/omni-inference/SKILL.md"
+    },
+    {
+      "name": "omni-mcp",
+      "path": "sources/omniroute/skills/omni-mcp/SKILL.md"
+    },
+    {
+      "name": "omni-models",
+      "path": "sources/omniroute/skills/omni-models/SKILL.md"
+    },
+    {
+      "name": "omni-providers",
+      "path": "sources/omniroute/skills/omni-providers/SKILL.md"
+    },
+    {
+      "name": "omni-proxies",
+      "path": "sources/omniroute/skills/omni-proxies/SKILL.md"
+    },
+    {
+      "name": "omni-resilience",
+      "path": "sources/omniroute/skills/omni-resilience/SKILL.md"
+    },
+    {
+      "name": "omni-settings",
+      "path": "sources/omniroute/skills/omni-settings/SKILL.md"
+    },
+    {
+      "name": "omni-sync-cloud",
+      "path": "sources/omniroute/skills/omni-sync-cloud/SKILL.md"
+    },
+    {
+      "name": "omni-tunnels",
+      "path": "sources/omniroute/skills/omni-tunnels/SKILL.md"
+    },
+    {
+      "name": "omni-usage-logs",
+      "path": "sources/omniroute/skills/omni-usage-logs/SKILL.md"
+    },
+    {
+      "name": "omni-version-manager",
+      "path": "sources/omniroute/skills/omni-version-manager/SKILL.md"
+    },
+    {
+      "name": "omni-webhooks",
+      "path": "sources/omniroute/skills/omni-webhooks/SKILL.md"
+    },
+    {
+      "name": "ponytail",
+      "path": "sources/omniroute/skills/ponytail/SKILL.md"
+    }
+  ],
+  "additional_entry_count": 58,
+  "additional_entries": [
+    {
+      "name": "activity-coin-model-reconciliation",
+      "source_category": "user_selected_workspace",
+      "purpose": "Compare token units, reward allocations and lifecycle rules.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "agent-tools",
+      "source_category": "user_selected_workspace",
+      "purpose": "Explore available agent and inference tooling.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "ai-secretary",
+      "source_category": "user_selected_secondary",
+      "purpose": "Prepare administrative task and follow-up workflows.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "attack-tree-construction",
+      "source_category": "user_selected_workspace",
+      "purpose": "Map threat paths and potential mitigations.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "auth-implementation-patterns",
+      "source_category": "user_selected_workspace",
+      "purpose": "Design authentication and authorization boundaries.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "brainstorming",
+      "source_category": "user_selected_workspace",
+      "purpose": "Clarify requirements and compare design alternatives.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "branding-generator",
+      "source_category": "user_selected_secondary",
+      "purpose": "Explore brand identity and messaging.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "browser-use",
+      "source_category": "user_selected_workspace",
+      "purpose": "Plan authorized browser inspection and testing.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "code-review-expert",
+      "source_category": "user_selected_workspace",
+      "purpose": "Review source changes for correctness and maintainability.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "copywriting",
+      "source_category": "user_selected_workspace",
+      "purpose": "Draft and refine marketing copy.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "credit-efficient-optimal-execution",
+      "source_category": "user_selected_workspace",
+      "purpose": "Plan bounded work and avoid unnecessary repeated checks.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "deep-research",
+      "source_category": "user_selected_secondary",
+      "purpose": "Prepare multi-source research investigations.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "defi-protocol-templates",
+      "source_category": "user_selected_workspace",
+      "purpose": "Explore decentralized-finance implementation patterns.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "dependency-updater",
+      "source_category": "user_selected_workspace",
+      "purpose": "Assess dependency upgrades and compatibility.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "deployment-pipeline-design",
+      "source_category": "user_selected_workspace",
+      "purpose": "Design staged release pipelines with review gates.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "design-thinker",
+      "source_category": "user_selected_secondary",
+      "purpose": "Explore user needs and test design hypotheses.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "dev-orchestrator",
+      "source_category": "user_selected_workspace",
+      "purpose": "Organize bounded implementation and verification work.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "docker-expert",
+      "source_category": "user_selected_workspace",
+      "purpose": "Plan container packaging and operational safeguards.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "evidence-aware-homepage-migration",
+      "source_category": "user_selected_workspace",
+      "purpose": "Compare migration claims and designs before approval.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "evidence-synthesis",
+      "source_category": "user_selected_workspace",
+      "purpose": "Compare research claims and supporting sources.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "firecrawl",
+      "source_category": "user_selected_workspace",
+      "purpose": "Explore authorized web research and extraction workflows.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "frontend-design",
+      "source_category": "user_selected_workspace",
+      "purpose": "Design usable web interfaces.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "github-solution-finder",
+      "source_category": "user_selected_secondary",
+      "purpose": "Discover candidate repositories for a bounded requirement.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "infographic-builder",
+      "source_category": "user_selected_secondary",
+      "purpose": "Plan visual summaries of supplied information.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "k8s-manifest-generator",
+      "source_category": "user_selected_workspace",
+      "purpose": "Prepare Kubernetes resource specifications.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "k8s-security-policies",
+      "source_category": "user_selected_workspace",
+      "purpose": "Plan Kubernetes access and workload isolation.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "kubernetes-specialist",
+      "source_category": "user_selected_workspace",
+      "purpose": "Assess Kubernetes operations and troubleshooting needs.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "legal-contract",
+      "source_category": "user_selected_secondary",
+      "purpose": "Prepare contract drafts and legal-review questions.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "love-transcends-ecosystem-master",
+      "source_category": "user_selected_workspace",
+      "purpose": "Map Love Transcends components and integration requirements.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "ltr-super-orchestrator",
+      "source_category": "user_selected_workspace",
+      "purpose": "Plan coordinated ecosystem implementation work.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "n8n-master",
+      "source_category": "user_selected_workspace",
+      "purpose": "Prepare reviewable automation workflow designs.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "native-data-fetching",
+      "source_category": "user_selected_workspace",
+      "purpose": "Plan network requests, caching and failure handling.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "nestjs-best-practices",
+      "source_category": "user_selected_workspace",
+      "purpose": "Guide NestJS application architecture and maintenance.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "next-best-practices",
+      "source_category": "user_selected_workspace",
+      "purpose": "Guide Next.js application structure and maintenance.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "nft-standards",
+      "source_category": "user_selected_workspace",
+      "purpose": "Compare NFT interfaces and metadata requirements.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "perplexity-master",
+      "source_category": "user_selected_workspace",
+      "purpose": "Prepare citation-oriented research briefs.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "photo-editor",
+      "source_category": "user_selected_secondary",
+      "purpose": "Plan edits to supplied images.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "podcast-generator",
+      "source_category": "user_selected_secondary",
+      "purpose": "Prepare podcast content and production assets.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "podcast-marketing",
+      "source_category": "user_selected_secondary",
+      "purpose": "Plan promotion and repurposing of podcast material.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "product-manager",
+      "source_category": "user_selected_secondary",
+      "purpose": "Prioritize product requirements and acceptance criteria.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "protocol-reverse-engineering",
+      "source_category": "user_selected_workspace",
+      "purpose": "Investigate protocol behavior within authorized scope.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "python-sdk",
+      "source_category": "user_selected_workspace",
+      "purpose": "Plan Python integrations with inference services.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "recreate-screenshot",
+      "source_category": "user_selected_secondary",
+      "purpose": "Reconstruct an interface from an authorized visual reference.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "repsu",
+      "source_category": "user_selected_workspace",
+      "purpose": "Coordinate evidence-based ecosystem and source review.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "rust-async-patterns",
+      "source_category": "user_selected_workspace",
+      "purpose": "Explore asynchronous Rust implementation patterns.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "security-requirement-extraction",
+      "source_category": "user_selected_workspace",
+      "purpose": "Translate threat findings into testable requirements.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "skill-creator",
+      "source_category": "user_selected_secondary",
+      "purpose": "Design and maintain reusable skill packages.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "skill-finder",
+      "source_category": "user_selected_secondary",
+      "purpose": "Discover candidate reusable skills.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false,
+      "identity_note": "Provider identity and source package are not verified."
+    },
+    {
+      "name": "solidity-security",
+      "source_category": "user_selected_workspace",
+      "purpose": "Review smart-contract risks and defensive patterns.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "soo-network-guardrails",
+      "source_category": "user_selected_workspace",
+      "purpose": "Define human review boundaries for network agents.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "systematic-debugging",
+      "source_category": "user_selected_workspace",
+      "purpose": "Investigate failures through evidence and reproducible tests.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "temporal-python-testing",
+      "source_category": "user_selected_workspace",
+      "purpose": "Plan tests for Python workflow execution and replay.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "source_category": "user_selected_workspace",
+      "purpose": "Compare interface, accessibility and usability choices.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "unified-onecode-review",
+      "source_category": "user_selected_workspace",
+      "purpose": "Review evidence and behavior across OneCode clients.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "video-editing",
+      "source_category": "user_selected_secondary",
+      "purpose": "Plan edits and assembly of video assets.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "web-design-guidelines",
+      "source_category": "user_selected_workspace",
+      "purpose": "Assess web interface usability and accessibility.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "web3-testing",
+      "source_category": "user_selected_workspace",
+      "purpose": "Plan contract and blockchain integration tests.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false
+    },
+    {
+      "name": "website-cloner",
+      "source_category": "user_selected_secondary",
+      "purpose": "Investigate authorized website reconstruction and migration.",
+      "selection_evidence": "Named in user selected_skills messages in this conversation",
+      "provider_and_revision_verified": false,
+      "redistribution_rights": "not_established_by_this_index",
+      "instructions_included": false,
+      "installed_or_enabled": false,
+      "identity_note": "Retains the user-selected spelling; possible website-cloning alias is not verified."
+    }
+  ]
+}
