@@ -76,8 +76,8 @@ The machine-readable index is [METADATA-ONLY-SKILLS.json](METADATA-ONLY-SKILLS.j
 
 ## Identity and rights limits
 
-- `website-cloner` retains the user-selected spelling; a possible `website-cloning` alias is not verified.
-- `skill-finder` has no verified provider identity or source package in this index.
+- `website-cloner` is the user-selected spelling; its catalog match `website-cloning` is verified. Original instructions remain excluded.
+- `skill-finder` is verified as an exact name in the available Replit secondary-skill catalog. Original instructions remain excluded; redistribution rights are not established.
 - Original instruction files, private profiles, attachment contents, credentials and signing material are excluded.
 - No additional original skill is licensed or redistributed by this index. It changes neither the existing Hab rights statement nor the pinned OmniRoute notices.
 - This file lives outside active skill folders. No workflow, connector, provider or contract is activated.

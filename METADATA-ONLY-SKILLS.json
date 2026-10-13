@@ -750,7 +750,9 @@
       "redistribution_rights": "not_established_by_this_index",
       "instructions_included": false,
       "installed_or_enabled": false,
-      "identity_note": "Provider identity and source package are not verified."
+      "identity_note": "Exact skill-finder entry verified in the available Replit secondary-skill catalog. This confirms catalog identity only, not ownership, license or portability.",
+      "catalog_identity_verified": true,
+      "catalog_name": "skill-finder"
     },
     {
       "name": "solidity-security",
@@ -851,7 +853,9 @@
       "redistribution_rights": "not_established_by_this_index",
       "instructions_included": false,
       "installed_or_enabled": false,
-      "identity_note": "Retains the user-selected spelling; possible website-cloning alias is not verified."
+      "identity_note": "Resolved to the available Replit secondary-skill catalog entry website-cloning; the selected spelling website-cloner is retained as an alias. This confirms catalog identity only, not ownership, license or portability.",
+      "catalog_identity_verified": true,
+      "catalog_name": "website-cloning"
     }
   ]
 }

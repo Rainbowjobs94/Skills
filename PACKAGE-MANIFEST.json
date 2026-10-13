@@ -21,7 +21,8 @@
     "common_secret_pattern_candidates": 0,
     "notes": "bounded heuristic screening; not complete DLP, rights opinion, or code security review",
     "additional_metadata_entries": 58,
-    "additional_metadata_instructions_included": false
+    "additional_metadata_instructions_included": false,
+    "catalog_identity_resolutions": 2
   },
   "entries": [
     {
@@ -730,20 +731,21 @@
       "sha256": "cb36c9f060acc1e03dcb530670da06c945eba32caecc839b2ecb943c29fa6c81"
     },
     {
-      "bytes": 34160,
+      "bytes": 34559,
       "path": "METADATA-ONLY-SKILLS.json",
-      "sha256": "7fbf2a5cc1933c5c02cb484e5977746fd1d53ab3d9420f348ff8c99efa5d4989"
+      "sha256": "2d9c8c9bf4121c65774d5fb50cc35e5a30cdcfd478cb43681286fe8923e6bb46"
     },
     {
-      "bytes": 7180,
+      "bytes": 7304,
       "path": "METADATA-ONLY-SKILLS.md",
-      "sha256": "2d429f64d28ef17395cf1b87d5682af2c29aadda7a1b3c79e87d16674d6bb580"
+      "sha256": "3f6b5516e34df2e1680616bfed2a5245ab925faabfd6aa3e7f91e10a6cb4a6c0"
     }
   ],
   "metadata_index": {
     "path": "METADATA-ONLY-SKILLS.json",
     "mode": "metadata_only",
     "baseline_commit": "5f55812aa730cb8febde66491218e690f31e686c",
-    "entry_count": 58
+    "entry_count": 58,
+    "catalog_identity_resolutions": 2
   }
 }
