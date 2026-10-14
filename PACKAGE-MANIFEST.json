@@ -1,8 +1,8 @@
 {
   "schema": "rainbowjobs-skills-package/1",
-  "version": "v1.1-three-lane-coding",
+  "version": "v1.2-selected-skills-metadata-index",
   "created_at": "2026-10-10",
-  "source_scope": "15 owner-confirmed Hab skill folders (75 files), plus 2 original Hab debugging/self-coding skills, 3 coding lanes and linked workflow/IA Guardian updates, and 52 files from pinned MIT-licensed OmniRoute skills subtree with upstream license/notices.",
+  "source_scope": "15 owner-confirmed Hab skill folders (75 files), plus 2 original Hab debugging/self-coding skills, 3 coding lanes and linked workflow/IA Guardian updates, and 52 files from pinned MIT-licensed OmniRoute skills subtree with upstream license/notices. Additional user-selected skills are indexed by metadata only; their original instructions are not packaged.",
   "excluded": [
     "personal profile and private memory",
     "credentials, API keys, wallet signing material",
@@ -19,7 +19,10 @@
     "credential_field_candidates": 0,
     "symlinks": 0,
     "common_secret_pattern_candidates": 0,
-    "notes": "bounded heuristic screening; not complete DLP, rights opinion, or code security review"
+    "notes": "bounded heuristic screening; not complete DLP, rights opinion, or code security review",
+    "additional_metadata_entries": 58,
+    "additional_metadata_instructions_included": false,
+    "catalog_identity_resolutions": 2
   },
   "entries": [
     {
@@ -423,9 +426,9 @@
       "sha256": "5385e14acea6e05705f229fa7edcf472c851db643e64b3a3ac1ed33909c03621"
     },
     {
+      "bytes": 2812,
       "path": "README.md",
-      "bytes": 2328,
-      "sha256": "3163d3cdfbf8e900d521de97cb274c40b241b5f566e503eedb653315203ccfc6"
+      "sha256": "ff19293b856d7bb3768b4142a8a0b78bfaf0255184bbf3c415f3323bdf4af1f9"
     },
     {
       "path": "RIGHTS-AND-SOURCES.md",
@@ -726,6 +729,23 @@
       "path": "sources/omniroute/skills/ponytail/SKILL.md",
       "bytes": 7421,
       "sha256": "cb36c9f060acc1e03dcb530670da06c945eba32caecc839b2ecb943c29fa6c81"
+    },
+    {
+      "bytes": 34559,
+      "path": "METADATA-ONLY-SKILLS.json",
+      "sha256": "2d9c8c9bf4121c65774d5fb50cc35e5a30cdcfd478cb43681286fe8923e6bb46"
+    },
+    {
+      "bytes": 7304,
+      "path": "METADATA-ONLY-SKILLS.md",
+      "sha256": "3f6b5516e34df2e1680616bfed2a5245ab925faabfd6aa3e7f91e10a6cb4a6c0"
     }
-  ]
+  ],
+  "metadata_index": {
+    "path": "METADATA-ONLY-SKILLS.json",
+    "mode": "metadata_only",
+    "baseline_commit": "5f55812aa730cb8febde66491218e690f31e686c",
+    "entry_count": 58,
+    "catalog_identity_resolutions": 2
+  }
 }

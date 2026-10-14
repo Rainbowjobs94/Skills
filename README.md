@@ -18,3 +18,7 @@ Start with [`START-HERE.md`](START-HERE.md). It includes a short copy/paste prom
 The owner authorized this public publication and confirmed redistribution rights for the 15 Hab skill folders. That permission is not an open-source license for others to reuse those files; see `RIGHTS-AND-SOURCES.md`. No repository-wide license is asserted. The separate OmniRoute snapshot retains its upstream MIT LICENSE and THIRD_PARTY_NOTICES.
 
 This expanded package also adds original Hab debugging and self-coding skills, including the three authorized coding lanes. `main` remains protected: a person reviews and approves any merge. The original n8n examples are manual templates, not imported workflows or running automations. The OmniRoute snapshot is only the selected skills subtree and notices, not a full application/repository mirror, installation, code audit, provider account or deployed service. No personal profile, credentials, or private signing material is included.
+
+## Additional selected skills (metadata only)
+
+See [METADATA-ONLY-SKILLS.md](METADATA-ONLY-SKILLS.md) and its [JSON index](METADATA-ONLY-SKILLS.json) for 58 additional user-selected skill names, newly written purpose summaries, and selection categories. Their original instructions are not included; source identity, revisions, availability, rights and compatibility require separate verification. This is a reference index, not an installer or an expansion of executable authority.
