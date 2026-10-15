@@ -1,8 +1,8 @@
 {
   "schema": "rainbowjobs-skills-package/1",
-  "version": "v1.2-selected-skills-metadata-index",
-  "created_at": "2026-10-10",
-  "source_scope": "15 owner-confirmed Hab skill folders (75 files), plus 2 original Hab debugging/self-coding skills, 3 coding lanes and linked workflow/IA Guardian updates, and 52 files from pinned MIT-licensed OmniRoute skills subtree with upstream license/notices. Additional user-selected skills are indexed by metadata only; their original instructions are not packaged.",
+  "version": "v1.3-lt-protocol-economics",
+  "created_at": "2026-10-15",
+  "source_scope": "15 owner-confirmed Hab skill folders (75 files), plus 2 original Hab debugging/self-coding skills, 3 coding lanes and linked workflow/IA Guardian updates, and 52 files from pinned MIT-licensed OmniRoute skills subtree with upstream license/notices. Additional user-selected skills are indexed by metadata only; their original instructions are not packaged. One owner-requested original Love Transcends protocol/economics skill folder and three supporting files are also included.",
   "excluded": [
     "personal profile and private memory",
     "credentials, API keys, wallet signing material",
@@ -22,7 +22,9 @@
     "notes": "bounded heuristic screening; not complete DLP, rights opinion, or code security review",
     "additional_metadata_entries": 58,
     "additional_metadata_instructions_included": false,
-    "catalog_identity_resolutions": 2
+    "catalog_identity_resolutions": 2,
+    "owner_added_skill_folders": 1,
+    "owner_added_skill_files": 4
   },
   "entries": [
     {
@@ -417,28 +419,28 @@
     },
     {
       "path": "CATALOG.json",
-      "bytes": 26816,
-      "sha256": "d3245876b42f91693d4f1bcd35209e4afce30c522865ee8c64ae42c5bccd040d"
+      "bytes": 27321,
+      "sha256": "2499a81ad7abf7413da69255e5b29e3f16506f3fdd795f3368bbeaaf15b0d000"
     },
     {
       "path": "CATALOG.md",
-      "bytes": 15352,
-      "sha256": "5385e14acea6e05705f229fa7edcf472c851db643e64b3a3ac1ed33909c03621"
+      "bytes": 15736,
+      "sha256": "20977037dfb78018a9491c7f0506b9be67891bc8986d207682e62305698189b2"
     },
     {
-      "bytes": 2812,
+      "bytes": 2947,
       "path": "README.md",
-      "sha256": "ff19293b856d7bb3768b4142a8a0b78bfaf0255184bbf3c415f3323bdf4af1f9"
+      "sha256": "40759b6837a2cb1d4d86267267e87fc87dec3d5e78bd5914a2e9346c4c689baf"
     },
     {
       "path": "RIGHTS-AND-SOURCES.md",
-      "bytes": 2062,
-      "sha256": "c3c9d0de5997ad8ae213d3b7dba468ee5c6e7814d9194fff76d619c168c69ba9"
+      "bytes": 2561,
+      "sha256": "952168576d1f8bbfce3ae569c48a95fdd8fb82310cfba15133b6d3fa921d9ba8"
     },
     {
       "path": "START-HERE.md",
-      "bytes": 3027,
-      "sha256": "45085a1b6baae00679687bacdd877975ae25ccdee49689d702b194c1a3353bdd"
+      "bytes": 3224,
+      "sha256": "b9a96ff21031a943f20b02089c2a5ab2a1c4f442ac6966ebb8d829bc49835385"
     },
     {
       "path": "skills/hab-omniroute/SKILL.md",
@@ -739,6 +741,26 @@
       "bytes": 7304,
       "path": "METADATA-ONLY-SKILLS.md",
       "sha256": "3f6b5516e34df2e1680616bfed2a5245ab925faabfd6aa3e7f91e10a6cb4a6c0"
+    },
+    {
+      "path": ".agents/skills/lt-protocol-economics-portable/README.md",
+      "bytes": 1677,
+      "sha256": "60c5df8348dae0cc460a858188958284f3f91778faefa3867bcc291fc6bcb444"
+    },
+    {
+      "path": ".agents/skills/lt-protocol-economics-portable/SKILL.md",
+      "bytes": 8189,
+      "sha256": "dcb41f364a7d7e7dfa7ff6be9e31263938334e20e9f8b422c03ec698a9ddb208"
+    },
+    {
+      "path": ".agents/skills/lt-protocol-economics-portable/references/local-lt-source-snapshot.md",
+      "bytes": 4630,
+      "sha256": "212728c5b3f08128e25148656c7e7dc3d1b360931fa4b6f593b8885c29c5f61f"
+    },
+    {
+      "path": ".agents/skills/lt-protocol-economics-portable/templates/protocol-economics-ledger.md",
+      "bytes": 1421,
+      "sha256": "a1b5dc0fbda167b3c9ecb4a271d6ee9c003f1370468398b2c79244ab087022d8"
     }
   ],
   "metadata_index": {

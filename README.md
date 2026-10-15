@@ -5,6 +5,7 @@ A portable library of IA Guardian Hab skills, manual workflow references, and pi
 ## What is included
 
 - 15 Hab-authored skill folders in `.agents/skills/`, including their reference files, record examples, validator and tests. Both original and Free-first n8n workflow versions are retained.
+- One owner-requested, original Love Transcends protocol/economics skill folder with its source snapshot and reusable ledger template.
 - A Hab OmniRoute reference skill for selecting native skills and comparing routes. Its optional paid-fallback design is user-approved but still proposed, not implemented or activated: free-first, explicit operator opt-in, approval for every paid request, and a conservative $10 per-task-run reserve ceiling.
 - The complete 52-file `skills/` subtree (46 native modules) from `diegosouzapw/OmniRoute`, pinned to commit `7510677f2f8f5317f1947284dab650d01333915d`, placed under `sources/` as references rather than active skills. Upstream MIT license and notices are retained there.
 - Catalog and SHA-256 source manifest for the packaged paths.

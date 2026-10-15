@@ -21,3 +21,7 @@ This is not a complete OmniRoute application copy or audit. Its full recursive r
 - No repository-wide open-source license or legal conclusion is supplied for the Hab-authored files.
 - File screening was bounded: JSON syntax, workflow `active: true` flags, credential-key fields, common token/private-key patterns, email and phone patterns were checked. Heuristic checks are not complete DLP or legal review.
 - The published adapter policy is a design record. No paid requests, secrets setup, deployment, n8n import, or provider activation occurred.
+
+## Owner-requested Love Transcends protocol/economics skill
+
+The repository owner requested publication of the original `lt-protocol-economics-portable` skill folder and its three supporting files in this repository. This records that publication direction only; it does not create a downstream reuse license or legal opinion. The accompanying local-source snapshot is a bounded project reference, not a claim that every contract, chain, reserve, or economic value has been independently verified.

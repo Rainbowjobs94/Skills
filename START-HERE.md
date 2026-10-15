@@ -2,6 +2,8 @@
 
 ## 1. Pick a starting point
 
+- **Need to reconcile Love Transcends protocols, token economics, mining rewards, contracts, reserves, or a project handoff?** Start with `.agents/skills/lt-protocol-economics-portable/SKILL.md`.
+
 - **Need a repeatable workflow or agent handoff?** Start with
   `.agents/skills/hab-workflow-library/SKILL.md` or
   `.agents/skills/hab-agent-universal/SKILL.md`.

@@ -21,6 +21,10 @@
 - **hab-debugging** — Diagnose software failures with bounded evidence, a reproducible case, competing hypotheses, and regression tests. Use when a bug, failed test, deployment symptom, or unexpected behavior needs investigation; do not infer a fix or deployment from source alone. (`.agents/skills/hab-debugging/SKILL.md`; 0 related files)
 - **hab-self-coding** — Convert an approved software goal into staged plans, isolated implementation, tests, and a human-reviewed path to main. Use for agent coding and self-improvement workflows; never grant direct main-branch, deployment, provider-spend, or secret authority. (`.agents/skills/hab-self-coding/SKILL.md`; 1 related files)
 
+## Love Transcends protocol/economics
+
+- **lt-protocol-economics-portable** — Reconcile Love Transcends protocols, token economics, mining rewards, contracts, reserves, and project backlogs from source evidence; create a portable, conflict-aware dossier for implementation or transfer to another project. (`.agents/skills/lt-protocol-economics-portable/SKILL.md`; 3 related files)
+
 ## Pinned OmniRoute upstream reference
 
 46 native skills are included under `sources/omniroute/skills/`, pinned to commit `7510677f2f8f5317f1947284dab650d01333915d` under the upstream MIT license. They are stored as source material, not installed under `.agents/skills/`. See `RIGHTS-AND-SOURCES.md` and the retained license/notices.

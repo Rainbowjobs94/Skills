@@ -125,6 +125,13 @@
       "source_path": ".agents/skills/hab-self-coding/SKILL.md",
       "related_file_count": 1,
       "sha256": "1d03ce8141208566da5bf8d5b12b6a0a3484d1598ddbaceb038c87504c41fac7"
+    },
+    {
+      "name": "lt-protocol-economics-portable",
+      "description": "Reconcile Love Transcends protocols, token economics, mining rewards, contracts, reserves, and project backlogs from source evidence; create a portable, conflict-aware dossier for implementation or transfer to another project.",
+      "source_path": ".agents/skills/lt-protocol-economics-portable/SKILL.md",
+      "related_file_count": 3,
+      "sha256": "dcb41f364a7d7e7dfa7ff6be9e31263938334e20e9f8b422c03ec698a9ddb208"
     }
   ],
   "schema": "rainbowjobs-skills-catalog/1",
